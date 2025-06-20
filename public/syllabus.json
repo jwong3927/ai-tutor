@@ -1,0 +1,696 @@
+[
+  {
+    "id": 1,
+    "title": "Foundations (Month 1) — Build the Ground You Stand On",
+    "description": "Master the essential building blocks of AI engineering including Python programming, data handling, mathematical foundations, and text analysis. This month establishes the core skills needed for all subsequent AI work. You'll learn to manipulate data, perform exploratory analysis, and understand the mathematical principles behind machine learning algorithms.",
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "topics": [
+          "What is AI? History and categories",
+          "Overview of AI/ML subfields",
+          "Real-world applications and trends (LLMs, Edge AI)"
+        ],
+        "keyTerms": ["Artificial Intelligence", "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Large Language Models", "Edge AI", "Supervised Learning", "Unsupervised Learning", "Reinforcement Learning"],
+        "additionalResources": [
+          {
+            "title": "AI For Everyone - Coursera",
+            "url": "https://www.coursera.org/learn/ai-for-everyone",
+            "description": "Free course by Andrew Ng covering AI basics and business applications"
+          },
+          {
+            "title": "Introduction to Artificial Intelligence - Khan Academy",
+            "url": "https://www.khanacademy.org/computing/computer-science/ai",
+            "description": "Free AI fundamentals and machine learning basics"
+          },
+          {
+            "title": "Machine Learning Crash Course - Google",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "description": "Free ML fundamentals with TensorFlow"
+          }
+        ]
+      },
+      {
+        "title": "Python for AI Engineering",
+        "topics": [
+          "Data types, OOP basics, API calls, virtual environments",
+          "Data acquisition and cleaning: CSV, JSON, Excel, missing values, outliers",
+          "Exploratory Data Analysis (EDA): Using Pandas, NumPy, Matplotlib, Seaborn; intro to Plotly/Altair"
+        ],
+        "keyTerms": ["Python", "Object-Oriented Programming", "Virtual Environment", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Data Cleaning", "Missing Values", "Outliers", "Exploratory Data Analysis", "Data Visualization"],
+        "additionalResources": [
+          {
+            "title": "Python for Data Science - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+            "description": "Free Python course with data science focus"
+          },
+          {
+            "title": "Pandas Tutorial - W3Schools",
+            "url": "https://www.w3schools.com/python/pandas/default.asp",
+            "description": "Free pandas data manipulation tutorials"
+          },
+          {
+            "title": "Data Analysis with Python - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+            "description": "Free course covering NumPy, Pandas, and data visualization"
+          }
+        ]
+      },
+      {
+        "title": "Mathematical Essentials",
+        "topics": [
+          "Linear algebra: vectors, matrices, eigenvalues",
+          "Calculus: derivatives, chain rule, gradients, optimization intuition",
+          "Probability & Statistics: distributions, Bayes' Rule, significance, hypothesis testing"
+        ],
+        "keyTerms": ["Linear Algebra", "Vectors", "Matrices", "Eigenvalues", "Calculus", "Derivatives", "Chain Rule", "Gradients", "Optimization", "Probability", "Statistics", "Distributions", "Bayes' Rule", "Hypothesis Testing", "Significance"],
+        "additionalResources": [
+          {
+            "title": "Linear Algebra - Khan Academy",
+            "url": "https://www.khanacademy.org/math/linear-algebra",
+            "description": "Free comprehensive linear algebra course"
+          },
+          {
+            "title": "Calculus - Khan Academy",
+            "url": "https://www.khanacademy.org/math/calculus-1",
+            "description": "Free calculus fundamentals including derivatives and optimization"
+          },
+          {
+            "title": "Statistics and Probability - Khan Academy",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "description": "Free statistics course covering distributions and hypothesis testing"
+          }
+        ]
+      },
+      {
+        "title": "Intro to Text EDA",
+        "topics": [
+          "Tokenization (NLTK, spaCy), stop-word removal, n-grams",
+          "TF-IDF, word-count features, word-frequency histograms/word clouds"
+        ],
+        "keyTerms": ["Tokenization", "NLTK", "spaCy", "Stop Words", "N-grams", "TF-IDF", "Word Frequency", "Text Preprocessing", "Natural Language Processing", "Word Clouds", "Text Analysis"],
+        "additionalResources": [
+          {
+            "title": "Natural Language Processing - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+            "description": "Free NLP course covering text preprocessing and analysis"
+          },
+          {
+            "title": "NLTK Tutorial - NLTK Documentation",
+            "url": "https://www.nltk.org/book/",
+            "description": "Free comprehensive NLTK tutorial and documentation"
+          },
+          {
+            "title": "Text Analysis with Python - Real Python",
+            "url": "https://realpython.com/nltk-nlp-python/",
+            "description": "Free tutorial on text analysis and NLP with Python"
+          }
+        ]
+      }
+    ],
+    "project": "Build a Data Explorer CLI and notebook for EDA and text analysis. Deliver summary stats, visualizations, and a Jupyter walkthrough.",
+    "monthly_task": "Analyze a public dataset, tell a story through visualizations, suggest ML use-cases, and optionally publish on GitHub.",
+    "reading_list": [
+      "Python for Data Analysis (Wes McKinney)",
+      "The Hundred-Page Machine Learning Book (Andriy Burkov)",
+      "Data Science from Scratch (Joel Grus)",
+      "Storytelling with Data (Cole Nussbaumer Knaflic)",
+      "Natural Language Processing with Python (Bird, Klein & Loper)"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Foundations & MLOps (Month 2) — From Notebook to Production",
+    "description": "Learn to build, evaluate, and deploy machine learning models with production-grade reliability. This month covers core ML concepts, model evaluation techniques, and the essential tools for taking models from development to deployment. You'll master scikit-learn workflows and learn to containerize and serve models.",
+    "modules": [
+      {
+        "title": "Core ML Concepts",
+        "topics": [
+          "Supervised learning: regression vs. classification",
+          "Model families: Logistic Regression, Decision Trees, Random Forests, KNN",
+          "Bias–variance, overfitting, regularization"
+        ],
+        "keyTerms": ["Supervised Learning", "Unsupervised Learning", "Regression", "Classification", "Logistic Regression", "Decision Trees", "Random Forests", "K-Nearest Neighbors", "Bias-Variance Tradeoff", "Overfitting", "Underfitting", "Regularization", "Cross-Validation"],
+        "additionalResources": [
+          {
+            "title": "Machine Learning - Coursera",
+            "url": "https://www.coursera.org/learn/machine-learning",
+            "description": "Free course by Andrew Ng covering supervised and unsupervised learning"
+          },
+          {
+            "title": "Machine Learning with Python - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+            "description": "Free course covering scikit-learn and ML fundamentals"
+          },
+          {
+            "title": "StatQuest - YouTube",
+            "url": "https://www.youtube.com/c/joshstarmer",
+            "description": "Free YouTube channel explaining ML concepts with clear visualizations"
+          }
+        ]
+      },
+      {
+        "title": "Experimentation & Model Evaluation",
+        "topics": [
+          "Data/version management (DVC), experiment tracking (MLflow, W&B)",
+          "Evaluation metrics: accuracy, precision, recall, F1, ROC-AUC, perplexity",
+          "Validation: confusion matrix, cross-validation, BLEU/ROUGE for text"
+        ],
+        "keyTerms": ["DVC", "MLflow", "Weights & Biases", "Experiment Tracking", "Accuracy", "Precision", "Recall", "F1 Score", "ROC-AUC", "Confusion Matrix", "Cross-Validation", "BLEU Score", "ROUGE Score", "Model Evaluation"],
+        "additionalResources": [
+          {
+            "title": "MLflow Tutorial - Databricks",
+            "url": "https://mlflow.org/docs/latest/tutorials-and-examples/index.html",
+            "description": "Free MLflow tutorials and examples"
+          },
+          {
+            "title": "DVC Tutorial - DVC Documentation",
+            "url": "https://dvc.org/doc/tutorials",
+            "description": "Free DVC tutorials for data version control"
+          },
+          {
+            "title": "Model Evaluation Metrics - Towards Data Science",
+            "url": "https://towardsdatascience.com/20-popular-machine-learning-metrics-part-1-classification-regression-evaluation-metrics-2ca3e39a0b44",
+            "description": "Free comprehensive guide to ML evaluation metrics"
+          }
+        ]
+      },
+      {
+        "title": "ML Workflows with Scikit-Learn",
+        "topics": [
+          "Preprocessing, pipelines, feature selection, GridSearchCV",
+          "CLI interface for training/evaluation"
+        ],
+        "keyTerms": ["Scikit-Learn", "Preprocessing", "Pipelines", "Feature Selection", "GridSearchCV", "Hyperparameter Tuning", "Feature Engineering", "Data Preprocessing", "Model Pipeline", "CLI Interface"],
+        "additionalResources": [
+          {
+            "title": "Scikit-Learn Tutorial - Official Documentation",
+            "url": "https://scikit-learn.org/stable/tutorial/",
+            "description": "Free official scikit-learn tutorials and examples"
+          },
+          {
+            "title": "Machine Learning Pipelines - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+            "description": "Free course covering ML pipelines and workflows"
+          },
+          {
+            "title": "Feature Engineering - Kaggle",
+            "url": "https://www.kaggle.com/learn/feature-engineering",
+            "description": "Free Kaggle course on feature engineering techniques"
+          }
+        ]
+      },
+      {
+        "title": "Docker Fundamentals",
+        "topics": [
+          "Writing Dockerfiles, building/running images, containerization basics"
+        ],
+        "keyTerms": ["Docker", "Dockerfile", "Containerization", "Images", "Containers", "Virtualization", "Deployment", "Microservices", "Container Orchestration"],
+        "additionalResources": [
+          {
+            "title": "Docker Tutorial - Docker Documentation",
+            "url": "https://docs.docker.com/get-started/",
+            "description": "Free official Docker getting started guide"
+          },
+          {
+            "title": "Docker for Beginners - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/news/docker-for-beginners/",
+            "description": "Free Docker tutorial for beginners"
+          },
+          {
+            "title": "Docker Tutorial - W3Schools",
+            "url": "https://www.w3schools.com/docker/",
+            "description": "Free comprehensive Docker tutorial"
+          }
+        ]
+      },
+      {
+        "title": "Packaging, Serving & Observability",
+        "topics": [
+          "Saving models, dependency management, REST API with FastAPI/Flask",
+          "Monitoring: logging requests, MLflow/Prometheus metrics"
+        ],
+        "keyTerms": ["Model Serialization", "Dependency Management", "REST API", "FastAPI", "Flask", "Model Serving", "Monitoring", "Logging", "Prometheus", "Observability", "Model Deployment"],
+        "additionalResources": [
+          {
+            "title": "FastAPI Tutorial - Official Documentation",
+            "url": "https://fastapi.tiangolo.com/tutorial/",
+            "description": "Free official FastAPI tutorial"
+          },
+          {
+            "title": "Flask Tutorial - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+            "description": "Free Flask and API development course"
+          },
+          {
+            "title": "Prometheus Tutorial - Prometheus Documentation",
+            "url": "https://prometheus.io/docs/introduction/getting_started/",
+            "description": "Free Prometheus monitoring tutorial"
+          }
+        ]
+      }
+    ],
+    "project": "Production-ready ML CLI and REST API. Includes training scripts, evaluation reports, serving endpoints, Dockerfile, and logs.",
+    "monthly_task": "End-to-end ML API project: EDA, training, serving, and documentation in GitHub.",
+    "reading_list": [
+      "Hands-On ML with Scikit-Learn, Keras & TensorFlow (Ch. 1–2, 6)",
+      "Python for Data Analysis (McKinney)",
+      "DVC & MLflow Quickstart Guides",
+      "StatQuest ML playlist (YouTube)"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Deep Learning & Service Prototype (Month 3) — From Pixels to Product",
+    "description": "Dive into deep learning fundamentals and build neural networks for real-world applications. This month covers neural network architectures, PyTorch/TensorFlow frameworks, and specialized models like CNNs and Transformers. You'll learn to train, tune, and deploy deep learning models as containerized services.",
+    "modules": [
+      {
+        "title": "Deep Learning Fundamentals",
+        "topics": [
+          "Neural network architectures (MLPs), activation functions, forward/backpropagation, optimizers"
+        ],
+        "keyTerms": ["Neural Networks", "Multi-Layer Perceptron", "Activation Functions", "Forward Propagation", "Backpropagation", "Optimizers", "Gradient Descent", "Loss Functions", "Neurons", "Layers", "Weights", "Biases"],
+        "additionalResources": [
+          {
+            "title": "Neural Networks and Deep Learning - Coursera",
+            "url": "https://www.coursera.org/learn/neural-networks-deep-learning",
+            "description": "Free course by Andrew Ng covering neural network fundamentals"
+          },
+          {
+            "title": "Deep Learning - MIT OpenCourseWare",
+            "url": "https://ocw.mit.edu/courses/6-s191-introduction-to-deep-learning-january-iap-2020/",
+            "description": "Free MIT course on deep learning fundamentals"
+          },
+          {
+            "title": "3Blue1Brown Neural Networks - YouTube",
+            "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+            "description": "Free YouTube series explaining neural networks visually"
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "topics": [
+          "PyTorch vs. TensorFlow basics, high-level APIs (nn.Module, tf.keras.Model)"
+        ],
+        "keyTerms": ["PyTorch", "TensorFlow", "Keras", "nn.Module", "Model API", "Tensors", "Autograd", "Computational Graphs", "GPU Acceleration", "CUDA", "Deep Learning Frameworks"],
+        "additionalResources": [
+          {
+            "title": "PyTorch Tutorial - Official Documentation",
+            "url": "https://pytorch.org/tutorials/",
+            "description": "Free official PyTorch tutorials and examples"
+          },
+          {
+            "title": "TensorFlow Tutorial - Official Documentation",
+            "url": "https://www.tensorflow.org/tutorials",
+            "description": "Free official TensorFlow tutorials"
+          },
+          {
+            "title": "Deep Learning with PyTorch - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/machine-learning-with-python/",
+            "description": "Free course covering PyTorch and deep learning"
+          }
+        ]
+      },
+      {
+        "title": "Transformer Primer",
+        "topics": [
+          "Attention mechanisms, positional encodings, encoder/decoder blocks",
+          "Build a toy character-level Transformer in PyTorch"
+        ],
+        "keyTerms": ["Transformers", "Attention Mechanism", "Self-Attention", "Positional Encoding", "Encoder", "Decoder", "Multi-Head Attention", "Feed-Forward Networks", "Layer Normalization", "Residual Connections"],
+        "additionalResources": [
+          {
+            "title": "Attention Is All You Need - Paper Walkthrough",
+            "url": "https://www.youtube.com/watch?v=U0s0fTJwBhQ",
+            "description": "Free YouTube video explaining the Transformer paper"
+          },
+          {
+            "title": "The Illustrated Transformer - Jay Alammar",
+            "url": "http://jalammar.github.io/illustrated-transformer/",
+            "description": "Free visual guide to understanding Transformers"
+          },
+          {
+            "title": "Transformer Tutorial - Hugging Face",
+            "url": "https://huggingface.co/course/chapter1",
+            "description": "Free course on Transformers and attention mechanisms"
+          }
+        ]
+      },
+      {
+        "title": "Convolutional Neural Networks (CNNs)",
+        "topics": [
+          "Conv2D, pooling, flatten, dense layers; CNN for image classification (MNIST, CIFAR-10)"
+        ],
+        "keyTerms": ["Convolutional Neural Networks", "CNNs", "Convolution", "Pooling", "Max Pooling", "Average Pooling", "Flatten", "Dense Layers", "Image Classification", "MNIST", "CIFAR-10", "Feature Maps", "Kernels"],
+        "additionalResources": [
+          {
+            "title": "CNN Tutorial - TensorFlow",
+            "url": "https://www.tensorflow.org/tutorials/images/cnn",
+            "description": "Free CNN tutorial with TensorFlow"
+          },
+          {
+            "title": "Convolutional Neural Networks - Coursera",
+            "url": "https://www.coursera.org/learn/convolutional-neural-networks",
+            "description": "Free course on CNNs by Andrew Ng"
+          },
+          {
+            "title": "CNN Visualization - YouTube",
+            "url": "https://www.youtube.com/watch?v=f0t-OCG79-U",
+            "description": "Free video explaining how CNNs work visually"
+          }
+        ]
+      },
+      {
+        "title": "Model Training & Tuning",
+        "topics": [
+          "Loss functions, accuracy, regularization, data augmentation"
+        ],
+        "keyTerms": ["Loss Functions", "Cross-Entropy Loss", "Mean Squared Error", "Accuracy", "Regularization", "Dropout", "L1/L2 Regularization", "Data Augmentation", "Batch Normalization", "Learning Rate", "Model Tuning"],
+        "additionalResources": [
+          {
+            "title": "Improving Deep Neural Networks - Coursera",
+            "url": "https://www.coursera.org/learn/deep-neural-network",
+            "description": "Free course on hyperparameter tuning and optimization"
+          },
+          {
+            "title": "Data Augmentation Tutorial - TensorFlow",
+            "url": "https://www.tensorflow.org/tutorials/images/data_augmentation",
+            "description": "Free tutorial on data augmentation techniques"
+          },
+          {
+            "title": "Regularization Techniques - Towards Data Science",
+            "url": "https://towardsdatascience.com/regularization-techniques-for-neural-networks-e55f295f0ad8",
+            "description": "Free guide to regularization in deep learning"
+          }
+        ]
+      }
+    ],
+    "project": "Dual-model API (CNN & Mini-Transformer), Jupyter notebooks, saved models, FastAPI service, Dockerfile, and sample tests.",
+    "monthly_task": "Train and compare CNN and Transformer models, containerize, and test locally.",
+    "reading_list": [
+      "Deep Learning with PyTorch (Eli Stevens et al.)",
+      "Hands-On ML with Scikit-Learn, Keras & TensorFlow (Ch. 10–12)",
+      "Vaswani et al., 'Attention Is All You Need'",
+      "FastAPI Crash Course (freeCodeCamp)"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AI Engineering — Prompting, RAG & Agentic Apps (Month 4) — Building Intelligent, Interactive LLM Applications",
+    "description": "Master the art of building intelligent applications powered by large language models. This month focuses on prompt engineering, retrieval-augmented generation, and creating agentic systems that can reason and interact with external tools. You'll learn to build sophisticated LLM applications with advanced prompting techniques and RAG pipelines.",
+    "modules": [
+      {
+        "title": "Prompt Engineering & LLM APIs",
+        "topics": [
+          "Few-shot, zero-shot, chain-of-thought, system/user prompts",
+          "Interacting with OpenAI, Hugging Face, Cohere APIs; rate limits, safety"
+        ],
+        "keyTerms": ["Prompt Engineering", "Few-Shot Learning", "Zero-Shot Learning", "Chain-of-Thought", "System Prompts", "User Prompts", "OpenAI API", "Hugging Face", "Cohere", "Rate Limiting", "API Safety", "Token Limits"],
+        "additionalResources": [
+          {
+            "title": "Prompt Engineering Guide - OpenAI",
+            "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+            "description": "Free official OpenAI prompt engineering guide"
+          },
+          {
+            "title": "Prompt Engineering - DeepLearning.AI",
+            "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+            "description": "Free course on prompt engineering for developers"
+          },
+          {
+            "title": "Hugging Face Course - Free",
+            "url": "https://huggingface.co/course",
+            "description": "Free course on using Hugging Face models and APIs"
+          }
+        ]
+      },
+      {
+        "title": "Retrieval-Augmented Generation (RAG)",
+        "topics": [
+          "Embeddings, chunking, semantic search, vector stores (FAISS, Chroma)",
+          "Query rewriting, context injection, document ingestion pipelines"
+        ],
+        "keyTerms": ["RAG", "Retrieval-Augmented Generation", "Embeddings", "Vector Embeddings", "Chunking", "Semantic Search", "Vector Stores", "FAISS", "Chroma", "Query Rewriting", "Context Injection", "Document Ingestion"],
+        "additionalResources": [
+          {
+            "title": "RAG Tutorial - LangChain",
+            "url": "https://python.langchain.com/docs/use_cases/question_answering/",
+            "description": "Free RAG implementation tutorial with LangChain"
+          },
+          {
+            "title": "Vector Databases - Pinecone",
+            "url": "https://www.pinecone.io/learn/vector-database/",
+            "description": "Free guide to vector databases and embeddings"
+          },
+          {
+            "title": "FAISS Tutorial - Facebook Research",
+            "url": "https://github.com/facebookresearch/faiss/wiki",
+            "description": "Free FAISS documentation and tutorials"
+          }
+        ]
+      },
+      {
+        "title": "Agentic Systems & LangChain",
+        "topics": [
+          "LangChain components: chains, memory, retrievers",
+          "Building tool-enabled agents, API/data integrations"
+        ],
+        "keyTerms": ["LangChain", "Agentic Systems", "Chains", "Memory", "Retrievers", "Tools", "Agents", "API Integration", "Tool Calling", "Function Calling", "Agent Architecture"],
+        "additionalResources": [
+          {
+            "title": "LangChain Tutorial - Official Documentation",
+            "url": "https://python.langchain.com/docs/get_started/introduction",
+            "description": "Free LangChain tutorials and documentation"
+          },
+          {
+            "title": "Building LLM Agents - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-agent-with-langchain/",
+            "description": "Free tutorial on building AI agents with LangChain"
+          },
+          {
+            "title": "LangChain Cookbook - GitHub",
+            "url": "https://github.com/langchain-ai/langchain/tree/master/cookbook",
+            "description": "Free collection of LangChain examples and recipes"
+          }
+        ]
+      },
+      {
+        "title": "Model Context Protocol (MCP) & Light MLOps",
+        "topics": [
+          "Anthropic's MCP spec, server/client setup, experiment tracking"
+        ],
+        "keyTerms": ["Model Context Protocol", "MCP", "Anthropic", "Server/Client Architecture", "Experiment Tracking", "MLOps", "Model Management", "Context Management"],
+        "additionalResources": [
+          {
+            "title": "MCP Documentation - Anthropic",
+            "url": "https://modelcontextprotocol.io/",
+            "description": "Free MCP specification and documentation"
+          },
+          {
+            "title": "MLOps Fundamentals - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/news/mlops-fundamentals/",
+            "description": "Free guide to MLOps fundamentals"
+          },
+          {
+            "title": "Experiment Tracking - Weights & Biases",
+            "url": "https://docs.wandb.ai/",
+            "description": "Free experiment tracking documentation and tutorials"
+          }
+        ]
+      },
+      {
+        "title": "LLM Evaluation & Fine-Tuning",
+        "topics": [
+          "Automated metrics (perplexity, BLEU/ROUGE, BERTScore), human evaluation, fine-tuning workflows, monitoring costs"
+        ],
+        "keyTerms": ["LLM Evaluation", "Perplexity", "BLEU Score", "ROUGE Score", "BERTScore", "Human Evaluation", "Fine-Tuning", "LoRA", "QLoRA", "Cost Monitoring", "Model Evaluation"],
+        "additionalResources": [
+          {
+            "title": "LLM Evaluation - Hugging Face",
+            "url": "https://huggingface.co/docs/evaluate/index",
+            "description": "Free evaluation metrics library and tutorials"
+          },
+          {
+            "title": "Fine-Tuning Guide - OpenAI",
+            "url": "https://platform.openai.com/docs/guides/fine-tuning",
+            "description": "Free guide to fine-tuning language models"
+          },
+          {
+            "title": "LoRA Tutorial - Microsoft",
+            "url": "https://github.com/microsoft/LoRA",
+            "description": "Free LoRA implementation and tutorials"
+          }
+        ]
+      }
+    ],
+    "project": "Fine-tuned RAG agent with ingestion, embedding, retrieval, evaluation report, and UI (Gradio/Streamlit).",
+    "monthly_task": "Full RAG + agentic workflow, MCP integration, UI, and ethics report.",
+    "reading_list": [
+      "A Gentle Introduction to RAG (Pinecone/LangChain)",
+      "Prompt Engineering Guide (DAIR.AI)",
+      "LangChain Cookbook (GitHub)",
+      "Greg Kamradt's LangChain Crash Course (YouTube)",
+      "Designing Machine Learning Systems (Chip Huyen)"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "AI Hardware & Optimization (Month 5) — Engineering for Efficiency — From Silicon to Serving",
+    "description": "Understand the hardware foundations and optimization techniques that power high-performance AI systems. This month covers GPU architectures, model optimization strategies, and deployment tools that enable efficient inference. You'll learn to optimize models for different hardware platforms and understand the trade-offs between performance and efficiency.",
+    "modules": [
+      {
+        "title": "Hardware Essentials for AI/ML",
+        "topics": [
+          "Server/GPU infrastructure, CPU architectures, memory, I/O",
+          "GPU architecture, CUDA, OpenCL, AI accelerators (TPUs, NPUs, ASICs)",
+          "Probabilistic, thermodynamic, and quantum computing basics"
+        ],
+        "keyTerms": ["GPU", "CPU", "Memory", "I/O", "CUDA", "OpenCL", "TPU", "NPU", "ASIC", "AI Accelerators", "Quantum Computing", "Thermodynamic Computing", "Hardware Architecture", "Parallel Processing"],
+        "additionalResources": [
+          {
+            "title": "CUDA Programming - NVIDIA",
+            "url": "https://developer.nvidia.com/cuda-toolkit",
+            "description": "Free CUDA programming guide and documentation"
+          },
+          {
+            "title": "GPU Computing - Coursera",
+            "url": "https://www.coursera.org/learn/gpu-computing",
+            "description": "Free course on GPU computing fundamentals"
+          },
+          {
+            "title": "TPU Tutorial - Google Cloud",
+            "url": "https://cloud.google.com/tpu/docs/tutorials",
+            "description": "Free TPU tutorials and documentation"
+          }
+        ]
+      },
+      {
+        "title": "Model Optimization & Efficiency",
+        "topics": [
+          "Quantization, pruning, knowledge distillation",
+          "LLM optimizations: QLoRA, tensor/pipeline parallelism"
+        ],
+        "keyTerms": ["Quantization", "Pruning", "Knowledge Distillation", "QLoRA", "Tensor Parallelism", "Pipeline Parallelism", "Model Compression", "Efficiency Optimization", "Model Size Reduction", "Inference Speed"],
+        "additionalResources": [
+          {
+            "title": "Model Optimization - TensorFlow",
+            "url": "https://www.tensorflow.org/lite/performance/model_optimization",
+            "description": "Free TensorFlow model optimization guide"
+          },
+          {
+            "title": "Quantization Tutorial - PyTorch",
+            "url": "https://pytorch.org/docs/stable/quantization.html",
+            "description": "Free PyTorch quantization tutorials"
+          },
+          {
+            "title": "Model Compression - Stanford",
+            "url": "https://stanford-cs221.github.io/",
+            "description": "Free course materials on model compression techniques"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "topics": [
+          "ONNX, TensorRT, DeepSpeed, Hugging Face Optimum, Triton, vLLM"
+        ],
+        "keyTerms": ["ONNX", "TensorRT", "DeepSpeed", "Hugging Face Optimum", "Triton", "vLLM", "Model Serving", "Inference Engine", "Optimization Tools", "Deployment Frameworks"],
+        "additionalResources": [
+          {
+            "title": "ONNX Tutorial - Official Documentation",
+            "url": "https://onnx.ai/get-started.html",
+            "description": "Free ONNX tutorials and getting started guide"
+          },
+          {
+            "title": "TensorRT Tutorial - NVIDIA",
+            "url": "https://developer.nvidia.com/tensorrt",
+            "description": "Free TensorRT documentation and tutorials"
+          },
+          {
+            "title": "DeepSpeed Tutorial - Microsoft",
+            "url": "https://www.deepspeed.ai/tutorials/",
+            "description": "Free DeepSpeed tutorials and examples"
+          }
+        ]
+      }
+    ],
+    "project": "Optimize and deploy a Transformer (e.g., DistilBERT), report on quantization/pruning, and benchmark latency/throughput.",
+    "monthly_task": "Benchmark CPU vs GPU vs TPU for a DL task, recommend optimization strategy, and justify trade-offs.",
+    "reading_list": [
+      "CUDA by Example (Sanders & Kandrot)",
+      "Quantum Machine Learning (Wittek)",
+      "Efficient Processing of Deep Neural Networks (Sze et al.)",
+      "Google TPU Whitepaper (arXiv)",
+      "NVIDIA Deep Learning Performance Guide",
+      "vLLM: High-Throughput Inference Engine"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Capstone, Benevolence & Professional Growth (Month 6) — From Engineer to Leader — Building AI with Purpose and Impact",
+    "description": "Build and deploy a complete AI solution while developing your professional identity as an AI engineer. This month combines technical implementation with ethical considerations and career development. You'll create a portfolio-worthy project while learning to present your work effectively and responsibly.",
+    "modules": [
+      {
+        "title": "Capstone Projects & Real-World Integration",
+        "topics": [
+          "End-to-end solution design: frontend, backend, model, infrastructure",
+          "Translating problems into technical architectures, peer reviews, mentor check-ins",
+          "Demo best practices for technical/non-technical audiences"
+        ],
+        "keyTerms": ["Capstone Project", "Full-Stack Development", "System Architecture", "Frontend", "Backend", "Infrastructure", "Technical Architecture", "Peer Review", "Demo", "Presentation Skills", "Project Management"],
+        "additionalResources": [
+          {
+            "title": "Full-Stack Development - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/",
+            "description": "Free full-stack development curriculum"
+          },
+          {
+            "title": "System Design - YouTube",
+            "url": "https://www.youtube.com/c/GauravSen",
+            "description": "Free system design tutorials and case studies"
+          },
+          {
+            "title": "Project Management - Coursera",
+            "url": "https://www.coursera.org/learn/project-management",
+            "description": "Free project management fundamentals course"
+          }
+        ]
+      },
+      {
+        "title": "Professional Development & Responsible AI",
+        "topics": [
+          "Resume/portfolio crafting, LinkedIn storytelling, interview prep",
+          "Agile project management, LLM benevolence/ethics, bias audits, RLHF, privacy/security, explainability, environmental impact, networking"
+        ],
+        "keyTerms": ["Professional Development", "Portfolio", "Resume", "LinkedIn", "Interview Preparation", "Agile", "Responsible AI", "Ethics", "Bias Audits", "RLHF", "Privacy", "Security", "Explainability", "Environmental Impact", "Networking"],
+        "additionalResources": [
+          {
+            "title": "Responsible AI - Google",
+            "url": "https://ai.google/responsibility/",
+            "description": "Free resources on responsible AI development"
+          },
+          {
+            "title": "AI Ethics - Coursera",
+            "url": "https://www.coursera.org/learn/ai-ethics",
+            "description": "Free course on AI ethics and responsible development"
+          },
+          {
+            "title": "Technical Interview Prep - freeCodeCamp",
+            "url": "https://www.freecodecamp.org/learn/coding-interview-prep/",
+            "description": "Free technical interview preparation resources"
+          }
+        ]
+      }
+    ],
+    "project": "Portfolio polish and LLM demo: update GitHub README, create demo video, LinkedIn post, and Notion/portfolio update.",
+    "monthly_task": "Individual full-stack AI app: frontend, backend (LLM-powered), deployment, ethics write-up, demo video, and professional polish.",
+    "reading_list": [
+      "Weapons of Math Destruction (Cathy O'Neil)",
+      "Google's Responsible AI Practices",
+      "The AI Engineer's Career Guide (Chip Huyen)",
+      "DARPA XAI overview",
+      "AI Portfolio Checklist (Eugene Yan)"
+    ]
+  }
+] 

@@ -1,0 +1,109 @@
+[
+  { "lessonId": 1, "moduleId": 1, "question": "What are the main categories of AI and how have they evolved over time?", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 1, "question": "Describe the major subfields of AI/ML and their real-world applications.", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 1, "question": "How have recent trends like LLMs and Edge AI changed the landscape of AI deployment?", "answerType": "text" },
+
+  { "lessonId": 1, "moduleId": 2, "question": "Explain the differences between Python data types and how OOP principles are used in AI engineering.", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 2, "question": "What are the key steps in acquiring and cleaning data from CSV, JSON, and Excel files?", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 2, "question": "How do you use Pandas, NumPy, and Matplotlib for exploratory data analysis? Give an example workflow.", "answerType": "text" },
+
+  { "lessonId": 1, "moduleId": 3, "question": "How are vectors and matrices used in AI? Give an example from machine learning.", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 3, "question": "Describe the role of derivatives and gradients in optimization for AI models.", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 3, "question": "What is Bayes' Rule and how is it applied in AI? Give a practical example.", "answerType": "text" },
+
+  { "lessonId": 1, "moduleId": 4, "question": "What is tokenization and why is it important in text data analysis?", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 4, "question": "How do n-grams and stop-word removal improve NLP preprocessing?", "answerType": "text" },
+  { "lessonId": 1, "moduleId": 4, "question": "Explain how TF-IDF and word-frequency histograms are used to extract features from text.", "answerType": "text" },
+
+  { "lessonId": 1, "question": "Block Assessment: How do Python, data handling, math, and text EDA work together to form the foundation of AI engineering? Provide a walkthrough of analyzing a new dataset from raw data to insights.", "answerType": "text" },
+
+  { "lessonId": 2, "moduleId": 1, "question": "Compare supervised and unsupervised learning with examples.", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 1, "question": "Describe the strengths and weaknesses of Logistic Regression, Decision Trees, and KNN.", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 1, "question": "What is overfitting and how can regularization help prevent it?", "answerType": "text" },
+
+  { "lessonId": 2, "moduleId": 2, "question": "How do you use DVC and MLflow to manage data and experiments in ML projects?", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 2, "question": "Explain the difference between accuracy, precision, recall, and F1 score. When would you use each?", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 2, "question": "What is cross-validation and why is it important for model evaluation?", "answerType": "text" },
+
+  { "lessonId": 2, "moduleId": 3, "question": "Outline the steps to build a preprocessing pipeline in Scikit-Learn.", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 3, "question": "How does feature selection improve model performance? Give an example.", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 3, "question": "Describe how to use GridSearchCV for hyperparameter tuning in a classification task.", "answerType": "text" },
+
+  { "lessonId": 2, "moduleId": 4, "question": "What is Docker and how does it help in ML workflows?", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 4, "question": "Describe the process of writing a Dockerfile for a Python ML project.", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 4, "question": "How do you build and run a Docker image for model training or inference?", "answerType": "text" },
+
+  { "lessonId": 2, "moduleId": 5, "question": "How do you serve a trained ML model as a REST API using FastAPI or Flask?", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 5, "question": "What are best practices for logging and monitoring ML model requests?", "answerType": "text" },
+  { "lessonId": 2, "moduleId": 5, "question": "How can you use Prometheus or MLflow to monitor deployed models?", "answerType": "text" },
+
+  { "lessonId": 2, "question": "Block Assessment: Describe the end-to-end process of building, evaluating, and deploying a production ML model. How do MLOps tools ensure reliability and reproducibility?", "answerType": "text" },
+
+  { "lessonId": 3, "moduleId": 1, "question": "Describe the structure of a multilayer perceptron (MLP) and its training process.", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 1, "question": "What are activation functions and how do they affect neural network learning?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 1, "question": "Explain the process of backpropagation and its role in deep learning.", "answerType": "text" },
+
+  { "lessonId": 3, "moduleId": 2, "question": "Compare PyTorch and TensorFlow for building deep learning models.", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 2, "question": "What are the benefits of using nn.Module or tf.keras.Model for model development?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 2, "question": "How do you implement a simple neural network in PyTorch or TensorFlow?", "answerType": "text" },
+
+  { "lessonId": 3, "moduleId": 3, "question": "Describe the architecture and key components of a Transformer model.", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 3, "question": "How does the attention mechanism work in Transformers?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 3, "question": "What is positional encoding and why is it important in sequence models?", "answerType": "text" },
+
+  { "lessonId": 3, "moduleId": 4, "question": "How do convolutional layers process image data in a CNN?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 4, "question": "Describe the steps for building a CNN for image classification (e.g., MNIST).", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 4, "question": "What is the role of pooling and dense layers in CNNs?", "answerType": "text" },
+
+  { "lessonId": 3, "moduleId": 5, "question": "What are common strategies for tuning deep learning models?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 5, "question": "How does regularization help prevent overfitting in deep learning?", "answerType": "text" },
+  { "lessonId": 3, "moduleId": 5, "question": "Describe the impact of data augmentation on model performance.", "answerType": "text" },
+
+  { "lessonId": 3, "question": "Block Assessment: Compare and contrast CNNs and Transformers. How would you design, train, and deploy both as API services in a real-world project?", "answerType": "text" },
+
+  { "lessonId": 4, "moduleId": 1, "question": "What are few-shot, zero-shot, and chain-of-thought prompting?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 1, "question": "How do you interact with LLM APIs (OpenAI, Hugging Face, Cohere) safely and effectively?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 1, "question": "What are the risks and best practices for prompt engineering in production LLM apps?", "answerType": "text" },
+
+  { "lessonId": 4, "moduleId": 2, "question": "Explain the concept of Retrieval-Augmented Generation (RAG).", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 2, "question": "How do embeddings and vector stores enable semantic search in RAG pipelines?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 2, "question": "Describe the process of context injection and document ingestion in a RAG system.", "answerType": "text" },
+
+  { "lessonId": 4, "moduleId": 3, "question": "What are the main components of an agentic system using LangChain?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 3, "question": "How do you build a tool-enabled agent for data or API integration?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 3, "question": "Describe a use case for an agentic LLM application in a real-world scenario.", "answerType": "text" },
+
+  { "lessonId": 4, "moduleId": 4, "question": "What is the Model Context Protocol (MCP) and how does it support LLM experimentation?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 4, "question": "How do you set up server/client tracking for LLM experiments?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 4, "question": "What are the benefits of experiment tracking in LLM development?", "answerType": "text" },
+
+  { "lessonId": 4, "moduleId": 5, "question": "How do you evaluate LLMs using automated metrics like BLEU, ROUGE, or BERTScore?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 5, "question": "What is the role of human evaluation in LLM fine-tuning?", "answerType": "text" },
+  { "lessonId": 4, "moduleId": 5, "question": "Describe a workflow for fine-tuning and monitoring LLMs in production.", "answerType": "text" },
+
+  { "lessonId": 4, "question": "Block Assessment: Design a RAG-powered LLM application with agentic behaviors. What are the key steps from prompt engineering to evaluation and UI deployment?", "answerType": "text" },
+
+  { "lessonId": 5, "moduleId": 1, "question": "What are the main types of hardware used in AI/ML and their roles?", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 1, "question": "Compare GPU, TPU, and AI accelerator architectures for deep learning tasks.", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 1, "question": "Explain the basics of quantum and thermodynamic computing in the context of AI.", "answerType": "text" },
+
+  { "lessonId": 5, "moduleId": 2, "question": "What is quantization and how does it improve model efficiency?", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 2, "question": "Describe the process and benefits of pruning and knowledge distillation.", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 2, "question": "How do LLM-specific optimizations like QLoRA and tensor parallelism work?", "answerType": "text" },
+
+  { "lessonId": 5, "moduleId": 3, "question": "What is ONNX and how is it used in model deployment?", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 3, "question": "How do TensorRT and DeepSpeed accelerate inference for large models?", "answerType": "text" },
+  { "lessonId": 5, "moduleId": 3, "question": "Describe a workflow for deploying a model with Hugging Face Optimum or Triton.", "answerType": "text" },
+
+  { "lessonId": 5, "question": "Block Assessment: How would you optimize and deploy a Transformer model for high-throughput inference? Discuss hardware choices, optimization strategies, and benchmarking.", "answerType": "text" },
+
+  { "lessonId": 6, "moduleId": 1, "question": "What are the key steps in designing a full-stack AI solution from problem to deployment?", "answerType": "text" },
+  { "lessonId": 6, "moduleId": 1, "question": "How do you translate a real-world problem into a technical architecture for an AI project?", "answerType": "text" },
+  { "lessonId": 6, "moduleId": 1, "question": "Describe best practices for demoing and presenting technical solutions to different audiences.", "answerType": "text" },
+
+  { "lessonId": 6, "moduleId": 2, "question": "How do you ensure your AI project is ethical and explainable?", "answerType": "text" },
+  { "lessonId": 6, "moduleId": 2, "question": "What are the most important elements of a professional AI portfolio?", "answerType": "text" },
+  { "lessonId": 6, "moduleId": 2, "question": "Discuss the role of responsible AI, bias audits, and privacy in modern AI engineering.", "answerType": "text" },
+
+  { "lessonId": 6, "question": "Block Assessment: Outline your approach to building, deploying, and presenting a full-stack, LLM-powered AI app. How would you address ethics, explainability, and professional growth?", "answerType": "text" }
+] 
